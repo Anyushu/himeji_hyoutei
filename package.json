@@ -1,7 +1,8 @@
 {
   "name": "himeji_hyoutei",
   "version": "1.0.0",
-  "description": "",
+  "description": "Himeji Hyoutei",
+  "private": true,
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -12,8 +13,12 @@
     "watch": "webpack --mode=development --watch",
     "imgmin": "node imagemin.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anyushu/himeji_hyoutei.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Anyushu",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.4.1",

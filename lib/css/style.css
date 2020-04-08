@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap);
 /* colors */
 /* font-size */
 /*!
@@ -7139,4 +7140,7 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+
+body {
+  font-family: "Noto Serif JP", serif; }
 
