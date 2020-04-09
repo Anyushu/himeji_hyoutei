@@ -7142,5 +7142,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 body {
-  font-family: "Noto Serif JP", serif; }
+  font-family: "Noto Serif JP", serif;
+  background-image: url("../images/bg_body.png");
+  background-repeat: repeat; }
 
