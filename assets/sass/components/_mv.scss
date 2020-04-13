@@ -1,0 +1,26 @@
+.home-mv {
+  font-size: 0;
+  padding-bottom: 3rem;
+
+  .scroll-main {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 4rem;
+    transform: rotate(90deg);
+    box-sizing: border-box;
+    padding-right: 4rem;
+    font-size: $font-size-sm;
+
+    &::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      bottom: 50%;
+      display: block;
+      width: 3rem;
+      height: 1px;
+      background-color: $dark;
+    }
+  }
+}
