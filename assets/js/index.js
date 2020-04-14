@@ -1,11 +1,27 @@
 // sass
+import 'aos/dist/aos.css';
 import '../sass/app.scss';
 
 // js modules
+import AOS from 'aos';
 import 'bootstrap';
 import 'slick-carousel';
+import '@fortawesome/fontawesome-free/js/all';
+
+AOS.init({
+  offset: 200,
+  delay: 100,
+  duration: 800,
+  easing: 'ease',
+});
 
 $(function ($) {
+  // ロードアニメーション
+  let h = $(window).height();
+  $('#loader').height(h).css('display', 'block');
+  $('#loader').delay(1000).fadeOut(1000);
+  $('#app').css('display', 'block');
+
   // スムーススクロール
   $('.smooth').on('click', function () {
     var speed = 500;
