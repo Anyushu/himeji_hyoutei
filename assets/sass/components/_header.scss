@@ -97,4 +97,58 @@
   .drawer-hamburger {
     top: 4.5rem;
   }
+  .drawer--right.drawer-open .drawer-hamburger {
+    top: 0;
+    right: 0;
+  }
+
+  .drawer-nav {
+    box-sizing: border-box;
+    padding: 0 1rem;
+    .menu-right {
+      .menu-wrap {
+        margin-bottom: 3rem;
+
+        .text-vertical {
+          -webkit-writing-mode: unset;
+          -ms-writing-mode: unset;
+          writing-mode: unset;
+        }
+
+        .drawer-menu {
+          margin-top: 4rem;
+          li {
+            margin-bottom: 1.5rem;
+            a {
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+
+      .tel-wrap {
+        margin: 3rem auto;
+
+        .tel {
+          display: block;
+          box-sizing: border-box;
+          border: solid 1px #e5e5e5;
+          font-size: 1.6rem;
+          padding: 1rem;
+
+          &::after {
+            content: "タップで電話";
+            display: block;
+            font-size: 0.875rem;
+          }
+        }
+      }
+
+      .sns {
+        a {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
 }

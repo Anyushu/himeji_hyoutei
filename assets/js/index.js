@@ -44,12 +44,29 @@ $(function ($) {
     pauseOnHover: false,
     fade: true,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 4000
+  });
+  $('.recruit-loop').slick({
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 0,
+    cssEase: 'linear',
+    speed: 8000,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    centerMode: true,
+    centerPadding: '10vw',
     responsive: [{
       breakpoint: 991.98,
       settings: {
-        // slidesToShow: 1,
+        slidesToShow: 2,
+        speed: 5000
       }
     }]
+  });
+
+  $('.switch-img-thumbnail img').on('click', function () {
+    let src = $(this).attr('src');
+    $('.switch-img-main img').attr('src', src);
   });
 });

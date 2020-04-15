@@ -1,0 +1,30 @@
+#creator,
+#shop-info {
+  background-color: #ededed;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10rem;
+
+  @include media-breakpoint-down(md) {
+    width: 100%;
+  }
+}
+
+.shop-main-img {
+  margin-bottom: -10rem;
+}
+
+.switch-img-thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  img {
+    display: block;
+    width: 17%;
+    height: auto;
+    margin: 0 0.5% 1%;
+    cursor: pointer;
+  }
+}
