@@ -9,6 +9,19 @@
     white-space: nowrap;
     letter-spacing: 0.3em;
     line-height: 2;
+    @include media-breakpoint-down(md) {
+      position: static;
+      top: auto;
+      left: auto;
+      transform: translate(0, 0);
+      margin: 0 auto;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .bg-illust {
+    display: none !important;
   }
 }
 
@@ -33,6 +46,10 @@
 #carousel-suppon {
   margin-top: 10rem;
   margin-bottom: -15rem;
+  @include media-breakpoint-down(md) {
+    margin-top: 0;
+    margin-bottom: -3rem;
+  }
 }
 
 .carousel-indicators {
@@ -55,6 +72,9 @@
 
 #suppon {
   padding-top: 15rem;
+  @include media-breakpoint-down(md) {
+    padding-top: 5rem;
+  }
 }
 
 #menu-shop {
@@ -117,5 +137,11 @@
   .bg-illust {
     top: -50px;
     right: -50px;
+  }
+}
+
+.vertical-area.h-100 {
+  @include media-breakpoint-down(md) {
+    height: auto !important;
   }
 }

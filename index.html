@@ -12,7 +12,7 @@
 <body class="drawer drawer--right">
   <div id="loader"></div>
   <div id="app">
-    <header class="main-header py-4">
+    <header class="main-header py-md-4 py-5">
       <div class="container-fluid position-relative">
         <h1 class="m-0 text-center">
           <a href="">
@@ -49,7 +49,7 @@
         <nav class="drawer-nav">
           <div class="menu-left d-md-block d-none"></div>
           <div class="menu-right text-center position-relative">
-            <div>
+            <div class="d-md-block d-none">
               <a href="">
                 <img src="./lib/images/logo.png" alt="">
               </a>
@@ -88,12 +88,12 @@
             <div><img class="img-fluid" src="./lib/images/mv_slide4.png" alt=""></div>
           </div>
         </div>
-        <a class="text-body scroll-main smooth" href="#read">Scroll</a>
+        <a class="text-body scroll-main smooth d-md-block d-none" href="#read">Scroll</a>
       </div>
       <section id="read" class="sec">
         <div class="container">
           <div class="row align-items-stretch">
-            <div data-aos="fade-up" class="col-md-5 order-md-last vertical-area">
+            <div data-aos="fade-up" class="col-md-5 mb-md-0 mb-4 order-md-last vertical-area">
               <div class="text-vertical">
                 <h2 class="h3">おかえりなさい</h2>
                 <p>家のような落ち着き。
@@ -104,19 +104,24 @@
               </div>
             </div>
             <div data-aos="fade-up" class="col-md-7 order-md-first">
-              <div class="mb-2">
-                <img class="img-fluid" src="./lib/images/read_main.png" alt="">
+              <div class="d-md-block d-none">
+                <div class="mb-2">
+                  <img class="img-fluid" src="./lib/images/read_main.png" alt="">
+                </div>
+                <div class="d-md-flex justify-content-between align-items-start">
+                  <div>
+                    <img class="img-fluid" src="./lib/images/read_sub1.png" alt="">
+                  </div>
+                  <div class="mx-2">
+                    <img class="img-fluid" src="./lib/images/read_sub2.png" alt="">
+                  </div>
+                  <div>
+                    <img class="img-fluid" src="./lib/images/read_sub3.png" alt="">
+                  </div>
+                </div>
               </div>
-              <div class="d-md-flex justify-content-between align-items-start">
-                <div>
-                  <img class="img-fluid" src="./lib/images/read_sub1.png" alt="">
-                </div>
-                <div class="mx-2">
-                  <img class="img-fluid" src="./lib/images/read_sub2.png" alt="">
-                </div>
-                <div>
-                  <img class="img-fluid" src="./lib/images/read_sub3.png" alt="">
-                </div>
+              <div class="d-md-none d-block">
+                <img class="img-fluid" src="./lib/images/read_main_sp.png" alt="">
               </div>
             </div>
           </div>
@@ -134,7 +139,7 @@
             <img src="./lib/images/bg_illust_2.png" alt="">
           </span>
           <div class="row align-items-stretch">
-            <div data-aos="fade-up" class="col-md-5 vertical-area">
+            <div data-aos="fade-up" class="col-md-5 mb-md-0 mb-4 vertical-area">
               <div class="text-vertical">
                 <h2 class="h3">ご縁を大切に</h2>
                 <p>語り継がれる瓢亭という想い出。
@@ -144,10 +149,15 @@
               </div>
             </div>
             <div data-aos="fade-up" class="col-md-7">
-              <img class="img-fluid" src="./lib/images/intor_main.png" alt="">
+              <div class="d-md-block d-none">
+                <img class="img-fluid" src="./lib/images/intor_main.png" alt="">
+              </div>
+              <div class="d-md-none d-md-none">
+                <img class="img-fluid" src="./lib/images/intor_main_sp.png" alt="">
+              </div>
             </div>
           </div>
-          <div data-aos="fade-up" class="d-md-flex justify-content-between align-items-center mt-3">
+          <div data-aos="fade-up" class="d-md-flex d-none justify-content-between align-items-center mt-3">
             <div class="mr-md-3">
               <img class="img-fluid" src="./lib/images/intor_sub1.png" alt="">
             </div>
@@ -176,24 +186,24 @@
       <section id="suppon" class="bg-dark text-white">
         <div class="container">
           <div class="row sec align-items-center">
-            <div data-aos="fade-up" class="col-md">
+            <div data-aos="fade-up" class="col-md mb-md-0 mb-5">
               <h2 class="mb-0 h4">すっぽんといえば<br>創業1916年の姫路瓢亭</h2>
             </div>
             <div data-aos="fade-up" class="col-md">
               <p class="mb-0">瓢亭のすっぽんスープは、
-                <br>ゆっくり・じっくり・愛情を込めて、８時間以上かけ、
-                <br>スープの素となる旨味を引き出した、
-                <br>濃い乳白色に濁ったスープになっています。
+                <br class="d-none d-md-block">ゆっくり・じっくり・愛情を込めて、８時間以上かけ、
+                <br class="d-none d-md-block">スープの素となる旨味を引き出した、
+                <br class="d-none d-md-block">濃い乳白色に濁ったスープになっています。
                 <br>他のお店では少なく、この濁りが瓢亭独自の旨味が
-                <br>凝縮されたスープなのです。</p>
+                <br class="d-none d-md-block">凝縮されたスープなのです。</p>
             </div>
           </div>
           <div class="row sec align-items-center">
-            <div data-aos="fade-up" class="col-md-5 order-md-last">
+            <div data-aos="fade-up" class="col-md-5 order-md-last mb-md-0 mb-4">
               <img class="img-fluid" src="./lib/images/history_side.png" alt="">
             </div>
             <div data-aos="fade-up" class="col-md-7 order-md-first">
-              <h2 class="h4 mb-4">姫路瓢亭のすっぽん</h2>
+              <h2 class="h4 my-md-4 my-5">姫路瓢亭のすっぽん</h2>
               <p>瓢亭名物のすっぽんは大分県の安心院で
                 <br>丹精込めて育ったものをご提供しております。
                 <br>すっぽんは神経質な性格で日光浴を好む生き物です。
@@ -237,7 +247,7 @@
                 </div>
               </div>
             </div>
-            <div data-aos="fade-up" class="col-md-4 order-md-first">
+            <div data-aos="fade-up" class="col-md-4 order-md-first mt-md-0 mt-5">
               <div class="vertical-area h-100">
                 <div class="text-vertical">
                   <h3>お品書き</h3>
@@ -247,7 +257,7 @@
                     <br>ぜひご賞味ください。</p>
                 </div>
               </div>
-              <div class="position-relative text-center mt-n5">
+              <div class="position-relative text-center mt-md-n5 mt-4">
                 <a class="btn btn-dark" href="">お品書き</a>
               </div>
             </div>
@@ -273,7 +283,7 @@
                 </div>
               </div>
             </div>
-            <div data-aos="fade-up" class="col-md-4">
+            <div data-aos="fade-up" class="col-md-4 mt-md-0 mt-5">
               <div class="vertical-area h-100">
                 <div class="text-vertical">
                   <h3>店舗情報</h3>
@@ -284,7 +294,7 @@
                     <br>ぜひ瓢亭をご利用ください。 </p>
                 </div>
               </div>
-              <div class="position-relative text-center mt-n5">
+              <div class="position-relative text-center mt-md-n5 mt-4">
                 <a class="btn btn-dark" href="">店舗情報</a>
               </div>
             </div>
@@ -297,15 +307,20 @@
           <span class="bg-illust position-absolute">
             <img src="./lib/images/bg_illust_7.png" alt="">
           </span>
-          <div data-aos="fade-up" class="d-flex justify-content-between align-items-start mb-5">
-            <div>
-              <img class="img-fluid" src="./lib/images/staff1.png" alt="">
+          <div data-aos="fade-up" class="mb-5">
+            <div class="d-md-flex d-none justify-content-between align-items-start">
+              <div>
+                <img class="img-fluid" src="./lib/images/staff1.png" alt="">
+              </div>
+              <div class="mx-2">
+                <img class="img-fluid" src="./lib/images/staff2.png" alt="">
+              </div>
+              <div>
+                <img class="img-fluid" src="./lib/images/staff3.png" alt="">
+              </div>
             </div>
-            <div class="mx-2">
-              <img class="img-fluid" src="./lib/images/staff2.png" alt="">
-            </div>
-            <div>
-              <img class="img-fluid" src="./lib/images/staff3.png" alt="">
+            <div class="d-block d-md-none">
+              <img class="img-fluid" src="./lib/images/staff_sp.png" alt="">
             </div>
           </div>
           <div class="row align-items-center">
@@ -313,8 +328,8 @@
               <h3>求人情報</h3>
               <p>瓢亭で1日体験をしてみませんか？</p>
             </div>
-            <div data-aos="fade-up" class="col-md">
-              <a class="btn btn-dark mr-md-3" href="">スタッフインタビュー</a>
+            <div data-aos="fade-up" class="col-md text-md-left text-center">
+              <a class="btn btn-dark mr-md-3 mb-md-0 mb-3" href="">スタッフインタビュー</a>
               <a class="btn btn-dark" href="">体験概要</a>
             </div>
           </div>
@@ -326,14 +341,14 @@
             <img src="./lib/images/bg_illust_3.png" alt="">
           </span>
           <div class="row align-items-stretch">
-            <div data-aos="fade-up" class="col-md-2">
+            <div data-aos="fade-up" class="col-2">
               <div class="vertical-area h-100">
                 <div class="text-vertical">
                   <h3 class="m-0">新着情報</h3>
                 </div>
               </div>
             </div>
-            <div data-aos="fade-up" class="col-md-10">
+            <div data-aos="fade-up" class="col-10">
               <ul class="news">
                 <li>
                   <a class="text-body" href="">
@@ -363,10 +378,10 @@
                   </a>
                 </li>
               </ul>
-              <div class="text-right">
-                <a class="btn btn-dark" href="">もっと見る</a>
-              </div>
             </div>
+          </div>
+          <div class="text-md-right text-center">
+            <a class="btn btn-dark" href="">もっと見る</a>
           </div>
         </div>
       </section>
@@ -386,7 +401,7 @@
             <p class="small">お電話での完全予約制となっております。</p>
           </div>
         </div>
-        <h2 class="text-center h3 m-0">すべてのご縁を大切に。</h2>
+        <h2 class="text-center h3 m-0 foot-read">すべてのご縁を大切に。</h2>
         <div class="sec text-center">
           <div class="mb-4">
             <a href="">
@@ -398,15 +413,15 @@
           <div class="d-flex align-items-center justify-content-center mt-5">
             <a class="text-body" href="https://www.facebook.com/himeji.hyotei/" target="_blank">
               <i class="fab fa-facebook-f mr-2"></i>
-              <span>Facebook</span>
+              <span class="d-md-inline d-none">Facebook</span>
             </a>
             <a class="text-body mx-4" href="https://www.instagram.com/hyoutei2/" target="_blank">
               <i class="fab fa-instagram mr-2"></i>
-              <span>Instagram</span>
+              <span class="d-md-inline d-none">Instagram</span>
             </a>
             <a class="text-body" href="" target="_blank">
               <i class="fab fa-youtube mr-2"></i>
-              <span>Youtube</span>
+              <span class="d-md-inline d-none">Youtube</span>
             </a>
           </div>
         </div>

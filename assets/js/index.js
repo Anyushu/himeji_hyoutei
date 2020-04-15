@@ -12,7 +12,7 @@ const IScroll = require('iscroll');
 require('jquery-drawer');
 
 AOS.init({
-  offset: 200,
+  offset: 0,
   delay: 100,
   duration: 800,
   easing: 'ease',
