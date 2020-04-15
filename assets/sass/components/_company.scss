@@ -3,11 +3,13 @@
   background-color: #ededed;
   width: 90%;
   margin: 0 auto;
-  padding-top: 10rem;
 
   @include media-breakpoint-down(md) {
     width: 100%;
   }
+}
+#shop-info {
+  padding-top: 10rem;
 }
 
 .shop-main-img {
@@ -26,5 +28,9 @@
     height: auto;
     margin: 0 0.5% 1%;
     cursor: pointer;
+
+    @include media-breakpoint-down(md) {
+      width: 24%;
+    }
   }
 }

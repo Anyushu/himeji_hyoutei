@@ -96,7 +96,12 @@
 @include media-breakpoint-down(md) {
   .drawer-hamburger {
     top: 4.5rem;
+
+    &.on-scroll {
+      top: 0;
+    }
   }
+
   .drawer--right.drawer-open .drawer-hamburger {
     top: 0;
     right: 0;

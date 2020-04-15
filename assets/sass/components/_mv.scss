@@ -23,14 +23,14 @@
       background-color: $dark;
     }
   }
-}
 
-.slick-slide {
-  img {
-    @include media-breakpoint-down(md) {
-      width: 100%;
-      height: 450px;
-      object-fit: cover;
+  .slick-slide {
+    img {
+      @include media-breakpoint-down(md) {
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+      }
     }
   }
 }

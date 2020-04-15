@@ -19,6 +19,7 @@ AOS.init({
 });
 
 $(function ($) {
+  // drawer
   $('.drawer').drawer();
   // ロードアニメーション
   let h = $(window).height();
@@ -34,6 +35,19 @@ $(function ($) {
     var position = target.offset().top;
     $("html, body").animate({ scrollTop: position }, speed, "swing");
     return false;
+  });
+
+  // scroll event
+  $(window).on('load scroll', function () {
+    let w = $(this).width();
+    let scroll = $(this).scrollTop();
+    if (w <= 768) {
+      if (scroll >= 300) {
+        $('.drawer-hamburger').addClass('on-scroll');
+      } else {
+        $('.drawer-hamburger').removeClass('on-scroll');
+      }
+    }
   });
 
   // slick
