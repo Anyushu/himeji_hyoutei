@@ -8,6 +8,9 @@ import 'bootstrap';
 import 'slick-carousel';
 import '@fortawesome/fontawesome-free/js/all';
 
+const IScroll = require('iscroll');
+require('jquery-drawer');
+
 AOS.init({
   offset: 200,
   delay: 100,
@@ -16,10 +19,11 @@ AOS.init({
 });
 
 $(function ($) {
+  $('.drawer').drawer();
   // ロードアニメーション
   let h = $(window).height();
   $('#loader').height(h).css('display', 'block');
-  $('#loader').delay(1000).fadeOut(1000);
+  $('#loader').delay(600).fadeOut(1000);
   $('#app').css('display', 'block');
 
   // スムーススクロール

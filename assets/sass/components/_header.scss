@@ -6,3 +6,89 @@
     }
   }
 }
+
+.drawer-nav {
+  width: 100%;
+  background-image: url("../images/bg_body.png");
+  background-repeat: repeat;
+
+  .menu-left {
+    background-image: url("../images/menu_left.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+.drawer--right .drawer-nav {
+  right: -100%;
+}
+
+@include media-breakpoint-up(md) {
+  .drawer-hamburger {
+    top: 50%;
+    right: 2vw !important;
+  }
+
+  .drawer-hamburger-icon::before {
+    top: -8px;
+  }
+
+  .drawer-hamburger-icon::after {
+    top: 8px;
+    left: auto;
+    right: 0;
+    width: 75%;
+  }
+
+  .drawer-open .drawer-hamburger-icon::after {
+    width: 100%;
+  }
+
+  .drawer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+    .menu-left,
+    .menu-right {
+      width: 50%;
+      height: 100%;
+    }
+
+    .menu-right {
+      box-sizing: border-box;
+      padding: 3rem;
+
+      .menu-wrap {
+        height: 300px;
+
+        .drawer-menu {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+
+          li {
+            text-align: left;
+            margin: 0 1rem;
+          }
+        }
+      }
+
+      .tel-wrap {
+        .tel {
+          font-size: 2rem;
+        }
+      }
+
+      .sns {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        box-sizing: border-box;
+        padding: 1rem;
+      }
+    }
+  }
+}
