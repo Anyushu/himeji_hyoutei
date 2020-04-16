@@ -120,7 +120,7 @@ $wp_url = get_template_directory_uri();
 <div data-aos="fade-up" class="col-md-10">
 <p>電車で来店される場合：JR姫路駅から徒歩13分</p>
 <div class="embed-responsive embed-responsive-21by9">
-<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.8949815315896!2d134.6885486147383!3d34.833732883590244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554e004eb00f9e5%3A0x14b8e005051fa65e!2z5aer6Lev55Oi5LqtIOacrOW6lw!5e0!3m2!1sja!2sjp!4v1586934521644!5m2!1sja!2sjp"></iframe>
+<div id="map-canvas" class="embed-responsive-item"></div>
 </div>
 <div class="embed-responsive embed-responsive-21by9 my-4">
 <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!4v1586934601560!6m8!1m7!1sXHGRpEiBNNymhwJwoPsQWg!2m2!1d34.83376355640016!2d134.6907515511572!3f96.0024746854771!4f0!5f0.7820865974627469"></iframe>
@@ -212,5 +212,162 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </section>
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyA5_k_xrwR0k-bvx3iUeIawpfzof2Br1Pg&language=ja"></script>
+<script>
+var map;
+var brooklyn = new google.maps.LatLng(41.385068, 2.173401);
+var MY_MAPTYPE_ID = 'Pandy_style';
+function initialize() {
+  var featureOpts = [
+    {
+        "featureType": "administrative",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": "-100"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.province",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 65
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": "50"
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": "-100"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "all",
+        "stylers": [
+            {
+                "lightness": "30"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "all",
+        "stylers": [
+            {
+                "lightness": "40"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "hue": "#ffff00"
+            },
+            {
+                "lightness": -25
+            },
+            {
+                "saturation": -97
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "lightness": -25
+            },
+            {
+                "saturation": -100
+            }
+        ]
+    }
+  ]
+  var mapOptions = {
+    zoom: 15,
+    center: brooklyn,
+    mapTypeControlOptions: {
+      mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+    },
+    mapTypeId: MY_MAPTYPE_ID
+  };
+  map = new google.maps.Map(document.getElementById('map-canvas'),
+    mapOptions);
+  var image = '<?php echo $wp_url; ?>/lib/images/pin.php';
+  var marker = new google.maps.Marker({
+    position: brooklyn,
+    map: map,
+    icon: image,
+    title: 'Pandyの好きな所'
+  });
+  var styledMapOptions = {
+    name: 'Pandy Map'
+  };
+  var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
+  map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 <?php
 get_footer();
