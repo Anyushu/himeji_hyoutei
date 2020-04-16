@@ -212,10 +212,10 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </section>
-<script src="http://maps.google.com/maps/api/js?key=AIzaSyA5_k_xrwR0k-bvx3iUeIawpfzof2Br1Pg&language=ja"></script>
+<script src="//maps.google.com/maps/api/js?key=AIzaSyA5_k_xrwR0k-bvx3iUeIawpfzof2Br1Pg&language=ja"></script>
 <script>
 var map;
-var brooklyn = new google.maps.LatLng(41.385068, 2.173401);
+var brooklyn = new google.maps.LatLng(34.833773, 134.690737);
 var MY_MAPTYPE_ID = 'Pandy_style';
 function initialize() {
   var featureOpts = [
@@ -353,15 +353,15 @@ function initialize() {
   };
   map = new google.maps.Map(document.getElementById('map-canvas'),
     mapOptions);
-  var image = '<?php echo $wp_url; ?>/lib/images/pin.php';
+  var image = '<?php echo $wp_url; ?>/lib/images/pin.png';
   var marker = new google.maps.Marker({
     position: brooklyn,
     map: map,
     icon: image,
-    title: 'Pandyの好きな所'
+    title: '姫路瓢亭本店'
   });
   var styledMapOptions = {
-    name: 'Pandy Map'
+    name: '姫路瓢亭本店'
   };
   var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
   map.mapTypes.set(MY_MAPTYPE_ID, customMapType);

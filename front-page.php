@@ -92,7 +92,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </section>
-<div class="container">
+<div class="container position-relative" style="z-index: 1">
 <div data-aos="fade-up" id="carousel-suppon" class="carousel slide" data-ride="carousel">
 <ol class="carousel-indicators">
 <li data-target="#carousel-suppon" data-slide-to="0" class="active"></li>

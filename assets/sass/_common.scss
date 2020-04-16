@@ -10,6 +10,12 @@ body {
   background-repeat: repeat;
 }
 
+a[href^="tel:"] {
+  @include media-breakpoint-up(md) {
+    pointer-events: none;
+  }
+}
+
 h2,
 h3,
 h4,
@@ -32,6 +38,7 @@ p {
 }
 
 #app {
+  overflow: hidden;
   display: none;
 }
 
