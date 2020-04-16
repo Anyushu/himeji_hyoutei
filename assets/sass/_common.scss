@@ -17,12 +17,18 @@ h4,
 .h3,
 .h4 {
   line-height: 1.8;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.4em;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1360px;
+  }
 }
 
 p {
   line-height: 2;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.4em;
 }
 
 #app {
@@ -109,7 +115,7 @@ p {
     z-index: 1;
     position: absolute;
     right: 1em;
-    bottom: -2.5em;
+    bottom: -2.7em;
     display: inline-block;
     margin: 0;
     font-size: 2.6rem;
