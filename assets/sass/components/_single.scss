@@ -1,0 +1,68 @@
+.post-main {
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin: 2em 0 1em;
+  }
+  h2 {
+    box-sizing: border-box;
+    padding-left: 1em;
+    border-left: solid 5px $body-color;
+    font-size: 1.5rem;
+  }
+  h3 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 1.5em;
+    font-size: 1.25rem;
+    &::before {
+      z-index: 2;
+      position: absolute;
+      top: 0.5em;
+      left: 0;
+      content: "";
+      width: 0.8em;
+      height: 0.8em;
+      background-color: $body-color;
+    }
+    &::after {
+      z-index: 1;
+      position: absolute;
+      top: 0.8em;
+      left: 0.3em;
+      content: "";
+      width: 0.8em;
+      height: 0.8em;
+      background-color: #c9c9c9;
+    }
+  }
+  h4 {
+    font-size: 1.1rem;
+    &::before {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      width: 1em;
+      height: 1px;
+      background-color: $body-color;
+      margin-right: .5em;
+    }
+  }
+}
+
+.sns-share {
+  margin: 4rem 0;
+
+  a {
+    display: block;
+    text-align: center;
+    background-color: $white;
+    color: $body-color;
+    padding: 1em;
+
+    @include media-breakpoint-down(md) {
+      font-size: 1.4rem;
+    }
+  }
+}

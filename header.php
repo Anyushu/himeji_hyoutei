@@ -18,7 +18,7 @@ $wp_url = get_template_directory_uri();
 <div class="container-fluid position-relative">
 <h1 class="m-0 text-center">
 <a href="">
-<img src="<?php echo $wp_url; ?>/lib/images/logo.png" alt="">
+<img src="<?php echo $wp_url; ?>/lib/images/logo.png" alt="日本料理の【姫路瓢亭】会席や接待、法事などにご利用ください">
 </a>
 </h1>
 <nav class="position-absolute d-md-block d-none">
@@ -27,19 +27,19 @@ $wp_url = get_template_directory_uri();
 <a class="text-body" href="<?php echo $home; ?>/">ホーム</a>
 </li>
 <li class="list-group-item border-0 text-vertical bg-transparent">
-<a class="text-body" href="<?php echo $home; ?>/">お品書き</a>
+<a class="text-body" href="<?php echo $home; ?>/menu/">お品書き</a>
 </li>
 <li class="list-group-item border-0 text-vertical bg-transparent">
-<a class="text-body" href="<?php echo $home; ?>/">店舗情報</a>
+<a class="text-body" href="<?php echo $home; ?>/about/">店舗情報</a>
 </li>
 <li class="list-group-item border-0 text-vertical bg-transparent">
-<a class="text-body" href="<?php echo $home; ?>/">アクセス</a>
+<a class="text-body" href="<?php echo $home; ?>/about#access">アクセス</a>
 </li>
 <li class="list-group-item border-0 text-vertical bg-transparent">
-<a class="text-body" href="<?php echo $home; ?>/">新着情報</a>
+<a class="text-body" href="<?php echo $home; ?>/news/">新着情報</a>
 </li>
 <li class="list-group-item border-0 text-vertical bg-transparent">
-<a class="text-body" href="<?php echo $home; ?>/">求人情報</a>
+<a class="text-body" href="<?php echo $home; ?>/about#recruit-about">求人情報</a>
 </li>
 </ul>
 </nav>
@@ -59,11 +59,11 @@ $wp_url = get_template_directory_uri();
 <div class="position-relative menu-wrap">
 <ul class="drawer-menu text-vertical">
 <li><a class="text-body" href="<?php echo $home; ?>/">ホーム</a></li>
-<li><a class="text-body" href="<?php echo $home; ?>/">お品書き</a></li>
-<li><a class="text-body" href="<?php echo $home; ?>/">店舗情報</a></li>
-<li><a class="text-body" href="<?php echo $home; ?>/">アクセス</a></li>
-<li><a class="text-body" href="<?php echo $home; ?>/">新着情報</a></li>
-<li><a class="text-body" href="<?php echo $home; ?>/">求人情報</a></li>
+<li><a class="text-body" href="<?php echo $home; ?>/menu/">お品書き</a></li>
+<li><a class="text-body" href="<?php echo $home; ?>/about/">店舗情報</a></li>
+<li><a class="text-body" href="<?php echo $home; ?>/about#access">アクセス</a></li>
+<li><a class="text-body" href="<?php echo $home; ?>/news/">新着情報</a></li>
+<li><a class="text-body" href="<?php echo $home; ?>/about#recruit-about">求人情報</a></li>
 </ul>
 </div>
 <div class="tel-wrap">

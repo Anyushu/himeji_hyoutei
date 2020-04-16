@@ -4,7 +4,7 @@ $wp_url = get_template_directory_uri();
 ?>
 
 <?php get_header(); ?>
-<section class="suv-mv">
+<section data-aos="fade-up" class="suv-mv">
 <div class="container position-relative">
 <img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/sub_mv_company.png" alt="">
 <h2>店舗情報</h2>
@@ -12,14 +12,14 @@ $wp_url = get_template_directory_uri();
 </section>
 <section id="greeting" class="sec">
 <div class="container">
-<div class="mb-5">
+<div data-aos="fade-up" class="mb-5">
 <img class="w-100" src="<?php echo $wp_url; ?>/lib/images/greeting_main.png" alt="">
 </div>
 <div class="row align-items-center">
-<div class="col-md mb-md-0 mb-5">
+<div data-aos="fade-up" class="col-md mb-md-0 mb-5">
 <h2 class="h4 mb-0 text-md-center">ご縁を大切に</h2>
 </div>
-<div class="col-md">
+<div data-aos="fade-up" class="col-md">
 <p>吾輩は猫である。
 <br>名前はまだない。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。
 <br>吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。この書生というのはときどき我々を捕えて煮て食うという話である。
@@ -34,17 +34,17 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </section>
-<div class="container shop-main-img">
+<div data-aos="fade-up" class="container shop-main-img">
 <img class="w-100" src="<?php echo $wp_url; ?>/lib/images/shop_main.png" alt="">
 </div>
 <section id="shop-info">
 <div class="container">
 <div class="sec">
 <div class="row">
-<div class="col-md-2 mb-md-0 mb-5">
+<div data-aos="fade-up" class="col-md-2 mb-md-0 mb-5">
 <h2 class="text-vertical text-md-vertical m-0">店舗概要</h2>
 </div>
-<div class="col-md-10">
+<div data-aos="fade-up" class="col-md-10">
 <table class="table w-100">
 <tbody>
 <tr>
@@ -97,7 +97,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </div>
-<div class="py-md-5 py-0">
+<div data-aos="fade-up" class="py-md-5 py-0">
 <div class="switch-img-main mb-3">
 <img class="w-100" src="<?php echo $wp_url; ?>/lib/images/shop_modal_1.png" alt="">
 </div>
@@ -112,12 +112,12 @@ $wp_url = get_template_directory_uri();
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/shop_modal_8.png" alt="">
 </div>
 </div>
-<div class="sec">
+<div id="access" class="sec">
 <div class="row">
-<div class="col-md-2 mb-md-0 mb-5">
+<div data-aos="fade-up" class="col-md-2 mb-md-0 mb-5">
 <h2 class="text-vertical text-md-vertical m-0">アクセス</h2>
 </div>
-<div class="col-md-10">
+<div data-aos="fade-up" class="col-md-10">
 <p>電車で来店される場合：JR姫路駅から徒歩13分</p>
 <div class="embed-responsive embed-responsive-21by9">
 <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.8949815315896!2d134.6885486147383!3d34.833732883590244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554e004eb00f9e5%3A0x14b8e005051fa65e!2z5aer6Lev55Oi5LqtIOacrOW6lw!5e0!3m2!1sja!2sjp!4v1586934521644!5m2!1sja!2sjp"></iframe>
@@ -132,14 +132,14 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </section>
-<section class="sec">
+<section id="recruit-about" class="sec">
 <div class="container">
-<h3 class="h5 text-center pb-md-5 pb-4">瓢亭で一日体験してみませんか？</h3>
-<div class="text-center mt-5">
+<h3 data-aos="fade-up" class="h5 text-center pb-md-5 pb-4">瓢亭で一日体験してみませんか？</h3>
+<div data-aos="fade-up" class="text-center mt-5">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/recruit_main.png" alt="">
 </div>
 </div>
-<div class="recruit-loop sec">
+<div data-aos="fade-up" class="recruit-loop sec">
 <div><img class="w-100" src="<?php echo $wp_url; ?>/lib/images/loop_1.png" alt=""></div>
 <div><img class="w-100" src="<?php echo $wp_url; ?>/lib/images/loop_2.png" alt=""></div>
 <div><img class="w-100" src="<?php echo $wp_url; ?>/lib/images/loop_3.png" alt=""></div>
@@ -151,10 +151,10 @@ $wp_url = get_template_directory_uri();
 </div>
 <div class="container">
 <div class="row">
-<div class="col-md-2 mb-md-0 mb-5">
+<div data-aos="fade-up" class="col-md-2 mb-md-0 mb-5">
 <h2 class="text-vertical text-md-vertical m-0">体験概要</h2>
 </div>
-<div class="col-md-10">
+<div data-aos="fade-up" class="col-md-10">
 <table class="table w-100">
 <tbody>
 <tr>
@@ -192,20 +192,20 @@ $wp_url = get_template_directory_uri();
 <section id="creator" class="sec mb-5">
 <div class="container">
 <div class="row">
-<div class="col-md text-center">
+<div data-aos="fade-up" class="col-md text-center">
 <p>クリエイターのMITSUKIです！</p>
 <div class="">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/creator_1.png" alt="">
 </div>
 </div>
-<div class="col-md text-center mt-md-0 mt-5">
+<div data-aos="fade-up" class="col-md text-center mt-md-0 mt-5">
 <p>私が作った作品です！</p>
 <div class="">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/creator_2.png" alt="">
 </div>
 </div>
 </div>
-<div class="border-top border-bottom mt-5 p-md-4 p-3">
+<div data-aos="fade-up" class="border-top border-bottom mt-5 p-md-4 p-3">
 <p class="h5">クリエイターMITSUKIからのメッセージ</p>
 <p class="mb-0">吾輩は猫である。名前はまだない。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所で
 <br>ニャーニャー泣いていた事だけは記憶している。(70文字)公式サイトへ</p>

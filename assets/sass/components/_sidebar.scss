@@ -1,0 +1,22 @@
+.sidebar {
+  margin-bottom: 3rem;
+
+  .sidebar-ttl {
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style: none;
+      margin-bottom: 1em;
+
+      a {
+        color: $body-color;
+      }
+    }
+  }
+}

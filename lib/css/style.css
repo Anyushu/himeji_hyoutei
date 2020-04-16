@@ -8709,6 +8709,20 @@ p {
     font-size: 1.3rem !important;
     letter-spacing: 0.3em; } }
 
+.sidebar {
+  margin-bottom: 3rem; }
+  .sidebar .sidebar-ttl {
+    font-size: 1.5rem;
+    margin-bottom: 1em; }
+  .sidebar ul {
+    padding: 0;
+    margin: 0; }
+    .sidebar ul li {
+      list-style: none;
+      margin-bottom: 1em; }
+      .sidebar ul li a {
+        color: #212529; }
+
 .home-mv {
   font-size: 0;
   padding-bottom: 3rem; }
@@ -8871,4 +8885,92 @@ p {
     @media (max-width: 991.98px) {
       .switch-img-thumbnail img {
         width: 24%; } }
+
+.wp-pagenavi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap; }
+  .wp-pagenavi .page {
+    display: block;
+    box-sizing: border-box;
+    padding: 0.8rem 1rem;
+    line-height: 1;
+    background-color: #fff;
+    color: #212529; }
+  .wp-pagenavi .page:hover,
+  .wp-pagenavi .current {
+    display: block;
+    box-sizing: border-box;
+    padding: 0.8rem 1rem;
+    line-height: 1;
+    background-color: #212529;
+    color: #fff;
+    text-decoration: none; }
+  .wp-pagenavi .previouspostslink,
+  .wp-pagenavi .nextpostslink {
+    color: #212529;
+    text-decoration: none; }
+  .wp-pagenavi a,
+  .wp-pagenavi span {
+    margin: 0 0.875rem; }
+
+.post-main h2,
+.post-main h3,
+.post-main h4,
+.post-main h5 {
+  margin: 2em 0 1em; }
+
+.post-main h2 {
+  box-sizing: border-box;
+  padding-left: 1em;
+  border-left: solid 5px #212529;
+  font-size: 1.5rem; }
+
+.post-main h3 {
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 1.5em;
+  font-size: 1.25rem; }
+  .post-main h3::before {
+    z-index: 2;
+    position: absolute;
+    top: 0.5em;
+    left: 0;
+    content: "";
+    width: 0.8em;
+    height: 0.8em;
+    background-color: #212529; }
+  .post-main h3::after {
+    z-index: 1;
+    position: absolute;
+    top: 0.8em;
+    left: 0.3em;
+    content: "";
+    width: 0.8em;
+    height: 0.8em;
+    background-color: #c9c9c9; }
+
+.post-main h4 {
+  font-size: 1.1rem; }
+  .post-main h4::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1px;
+    background-color: #212529;
+    margin-right: .5em; }
+
+.sns-share {
+  margin: 4rem 0; }
+  .sns-share a {
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    color: #212529;
+    padding: 1em; }
+    @media (max-width: 991.98px) {
+      .sns-share a {
+        font-size: 1.4rem; } }
 

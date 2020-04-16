@@ -1,0 +1,37 @@
+.wp-pagenavi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  .page {
+    display: block;
+    box-sizing: border-box;
+    padding: 0.8rem 1rem;
+    line-height: 1;
+    background-color: $white;
+    color: $body-color;
+  }
+
+  .page:hover,
+  .current {
+    display: block;
+    box-sizing: border-box;
+    padding: 0.8rem 1rem;
+    line-height: 1;
+    background-color: $body-color;
+    color: $white;
+    text-decoration: none;
+  }
+
+  .previouspostslink,
+  .nextpostslink {
+    color: $body-color;
+    text-decoration: none;
+  }
+
+  a,
+  span {
+    margin: 0 0.875rem;
+  }
+}
