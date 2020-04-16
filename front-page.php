@@ -7,10 +7,10 @@ $wp_url = get_template_directory_uri();
 <div data-aos="fade-up" class="home-mv position-relative">
 <div class="container">
 <div class="mv-slider">
-<div><img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/mv_slide1.png" alt=""></div>
-<div><img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/mv_slide2.png" alt=""></div>
-<div><img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/mv_slide3.png" alt=""></div>
-<div><img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/mv_slide4.png" alt=""></div>
+<div><img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/mv_slide1.png" alt="スライド"></div>
+<div><img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/mv_slide2.png" alt="スライド"></div>
+<div><img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/mv_slide3.png" alt="スライド"></div>
+<div><img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/mv_slide4.png" alt="スライド"></div>
 </div>
 </div>
 <a class="text-body scroll-main smooth d-md-block d-none" href="#read">Scroll</a>
@@ -31,22 +31,22 @@ $wp_url = get_template_directory_uri();
 <div data-aos="fade-up" class="col-md-7 order-md-first">
 <div class="d-md-block d-none">
 <div class="mb-2">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/read_main.png" alt="">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/read_main.png" alt="瓢亭画像1">
 </div>
 <div class="d-md-flex justify-content-between align-items-start">
 <div>
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/read_sub1.png" alt="">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/read_sub1.png" alt="瓢亭画像2">
 </div>
 <div class="mx-2">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/read_sub2.png" alt="">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/read_sub2.png" alt="瓢亭画像3">
 </div>
 <div>
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/read_sub3.png" alt="">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/read_sub3.png" alt="瓢亭画像4">
 </div>
 </div>
 </div>
 <div class="d-md-none d-block">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/read_main_sp.png" alt="">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/read_main_sp.png" alt="瓢亭画像5">
 </div>
 </div>
 </div>
@@ -55,13 +55,13 @@ $wp_url = get_template_directory_uri();
 <section id="intoro" class="sec">
 <div class="container position-relative">
 <span class="bg-illust position-absolute">
-<img src="<?php echo $wp_url; ?>/lib/images/bg_illust_1.png" alt="">
+<img src="<?php echo $wp_url; ?>/lib/images/bg_illust_1.png" alt="瓢亭画像6">
 </span>
 <span class="bg-illust position-absolute">
-<img src="<?php echo $wp_url; ?>/lib/images/bg_illust_4.png" alt="">
+<img src="<?php echo $wp_url; ?>/lib/images/bg_illust_4.png" alt="瓢亭画像7">
 </span>
 <span class="bg-illust position-absolute">
-<img src="<?php echo $wp_url; ?>/lib/images/bg_illust_2.png" alt="">
+<img src="<?php echo $wp_url; ?>/lib/images/bg_illust_2.png" alt="瓢亭画像8">
 </span>
 <div class="row align-items-stretch">
 <div data-aos="fade-up" class="col-md-5 mb-md-0 mb-4 vertical-area">
@@ -75,19 +75,19 @@ $wp_url = get_template_directory_uri();
 </div>
 <div data-aos="fade-up" class="col-md-7">
 <div class="d-md-block d-none">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/intor_main.png" alt="">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/intor_main.png" alt="瓢亭画像9">
 </div>
 <div class="d-md-none d-md-none">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/intor_main_sp.png" alt="">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/intor_main_sp.png" alt="瓢亭画像10">
 </div>
 </div>
 </div>
 <div data-aos="fade-up" class="d-md-flex d-none justify-content-between align-items-center mt-3">
 <div class="mr-md-3">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/intor_sub1.png" alt="">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/intor_sub1.png" alt="瓢亭画像11">
 </div>
 <div>
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/intor_sub2.png" alt="">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/intor_sub2.png" alt="瓢亭画像12">
 </div>
 </div>
 </div>
@@ -125,7 +125,7 @@ $wp_url = get_template_directory_uri();
 </div>
 <div class="row sec align-items-center">
 <div data-aos="fade-up" class="col-md-5 order-md-last mb-md-0 mb-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/history_side.png" alt="">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/history_side.png" alt="姫路瓢亭のすっぽん">
 </div>
 <div data-aos="fade-up" class="col-md-7 order-md-first">
 <h2 class="h4 my-md-4 my-5">姫路瓢亭のすっぽん</h2>
@@ -183,7 +183,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 <div class="position-relative text-center mt-md-n5 mt-4">
-<a class="btn btn-dark" href="">お品書き</a>
+<a class="btn btn-dark" href="<?php echo $home; ?>/menu/">お品書き</a>
 </div>
 </div>
 </div>
@@ -220,7 +220,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 <div class="position-relative text-center mt-md-n5 mt-4">
-<a class="btn btn-dark" href="">店舗情報</a>
+<a class="btn btn-dark" href="<?php echo $home; ?>/about/">店舗情報</a>
 </div>
 </div>
 </div>
@@ -254,8 +254,8 @@ $wp_url = get_template_directory_uri();
 <p>瓢亭で1日体験をしてみませんか？</p>
 </div>
 <div data-aos="fade-up" class="col-md text-md-left text-center">
-<a class="btn btn-dark mr-md-3 mb-md-0 mb-3" href="">スタッフインタビュー</a>
-<a class="btn btn-dark" href="">体験概要</a>
+<a class="btn btn-dark mr-md-3 mb-md-0 mb-3" href="<?php echo $home; ?>/about#recruit-about">スタッフインタビュー</a>
+<a class="btn btn-dark" href="<?php echo $home; ?>/about#recruit-about">体験概要</a>
 </div>
 </div>
 </div>
@@ -275,38 +275,32 @@ $wp_url = get_template_directory_uri();
 </div>
 <div data-aos="fade-up" class="col-10">
 <ul class="news">
+<?php
+$args = ['posts_per_page' => 3];
+$posts = get_posts($args);
+foreach ($posts as $post):
+setup_postdata($post);
+$cat = get_the_category();
+$cat_name = $cat[0]->name;
+?>
 <li>
-<a class="text-body" href="">
+<a class="text-body" href="<?php the_permalink(); ?>">
 <p>
-<time data-time="">2020.05.01</time>
-<span>お知らせ</span>
+<time class="mr-2" data-time="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
+<span><?php echo $cat_name; ?></span>
 </p>
-<h4 class="m-0">長期休暇中の営業時間のお知らせ。</h4>
+<h4 class="m-0"><?php the_title(); ?></h4>
 </a>
 </li>
-<li>
-<a class="text-body" href="">
-<p>
-<time data-time="">2020.05.01</time>
-<span>お知らせ</span>
-</p>
-<h4 class="m-0">長期休暇中の営業時間のお知らせ。</h4>
-</a>
-</li>
-<li>
-<a class="text-body" href="">
-<p>
-<time data-time="">2020.05.01</time>
-<span>お知らせ</span>
-</p>
-<h4 class="m-0">長期休暇中の営業時間のお知らせ。</h4>
-</a>
-</li>
+<?php
+endforeach;
+wp_reset_postdata();
+?>
 </ul>
 </div>
 </div>
 <div class="text-md-right text-center">
-<a class="btn btn-dark" href="">もっと見る</a>
+<a class="btn btn-dark" href="<?php echo $home; ?>/news/">もっと見る</a>
 </div>
 </div>
 </section>
