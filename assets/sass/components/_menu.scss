@@ -1,0 +1,27 @@
+.menu-main-slide {
+  margin-bottom: -7rem;
+  @include media-breakpoint-down(md) {
+    margin-bottom: -3rem;
+  }
+}
+
+#menu-list {
+  padding-top: 14rem;
+  background-color: rgba(#ddd, 0.3);
+  @include media-breakpoint-down(md) {
+    padding-top: 7rem;
+  }
+
+  .menu-list {
+    margin-bottom: 5rem;
+
+    h3 {
+      margin-left: auto;
+    }
+
+    img {
+      display: block;
+      max-width: 0 auto;
+    }
+  }
+}
