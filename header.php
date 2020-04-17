@@ -57,13 +57,13 @@ $wp_url = get_template_directory_uri();
 </a>
 </div>
 <div class="position-relative menu-wrap">
-<ul class="drawer-menu text-vertical">
-<li><a class="text-body" href="<?php echo $home; ?>/">ホーム</a></li>
-<li><a class="text-body" href="<?php echo $home; ?>/menu/">お品書き</a></li>
-<li><a class="text-body" href="<?php echo $home; ?>/about/">店舗情報</a></li>
-<li><a class="text-body" href="<?php echo $home; ?>/about#access">アクセス</a></li>
-<li><a class="text-body" href="<?php echo $home; ?>/news/">新着情報</a></li>
-<li><a class="text-body" href="<?php echo $home; ?>/about#recruit-about">求人情報</a></li>
+<ul class="drawer-menu w-100">
+<li class="text-vertical"><a class="text-body" href="<?php echo $home; ?>/">ホーム</a></li>
+<li class="text-vertical"><a class="text-body" href="<?php echo $home; ?>/menu/">お品書き</a></li>
+<li class="text-vertical"><a class="text-body" href="<?php echo $home; ?>/about/">店舗情報</a></li>
+<li class="text-vertical"><a class="text-body" href="<?php echo $home; ?>/about#access">アクセス</a></li>
+<li class="text-vertical"><a class="text-body" href="<?php echo $home; ?>/news/">新着情報</a></li>
+<li class="text-vertical"><a class="text-body" href="<?php echo $home; ?>/about#recruit-about">求人情報</a></li>
 </ul>
 </div>
 <div class="tel-wrap">

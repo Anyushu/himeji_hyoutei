@@ -37,6 +37,14 @@ p {
   letter-spacing: 0.4em;
 }
 
+a:hover {
+  text-decoration: none !important;
+}
+
+button:focus {
+  outline: none;
+}
+
 #app {
   overflow: hidden;
   display: none;

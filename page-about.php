@@ -123,10 +123,11 @@ $wp_url = get_template_directory_uri();
 <div id="map-canvas" class="embed-responsive-item"></div>
 </div>
 <div class="embed-responsive embed-responsive-21by9 my-4">
-<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!4v1586934601560!6m8!1m7!1sXHGRpEiBNNymhwJwoPsQWg!2m2!1d34.83376355640016!2d134.6907515511572!3f96.0024746854771!4f0!5f0.7820865974627469"></iframe>
+<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!4v1587089632523!6m8!1m7!1sXHGRpEiBNNymhwJwoPsQWg!2m2!1d34.83376355640016!2d134.6907515511572!3f193.71868055650833!4f-1.2947940886053289!5f0.7820865974627469"></iframe>
 </div>
 <div class="text-right">
 <a class="btn btn-dark" href="https://goo.gl/maps/S26k56xkSEMgPFMz9" target="_blank">大きい地図で見る</a>
+</div>
 </div>
 </div>
 </div>
@@ -189,7 +190,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </section>
-<section id="creator" class="sec mb-5">
+<div id="creator" class="sec mb-5">
 <div class="container">
 <div class="row">
 <div data-aos="fade-up" class="col-md text-center">
@@ -211,7 +212,7 @@ $wp_url = get_template_directory_uri();
 <br>ニャーニャー泣いていた事だけは記憶している。(70文字)公式サイトへ</p>
 </div>
 </div>
-</section>
+</div>
 <script src="//maps.google.com/maps/api/js?key=AIzaSyA5_k_xrwR0k-bvx3iUeIawpfzof2Br1Pg&language=ja"></script>
 <script>
 var map;

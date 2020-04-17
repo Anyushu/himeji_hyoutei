@@ -74,7 +74,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 <div data-aos="fade-up" class="col-md-7">
-<div class="d-md-block d-none">
+<div class="d-md-block d-none text-right">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/intor_main.png" alt="瓢亭画像9">
 </div>
 <div class="d-md-none d-md-none">
@@ -286,7 +286,7 @@ $cat_name = $cat[0]->name;
 <li>
 <a class="text-body" href="<?php the_permalink(); ?>">
 <p>
-<time class="mr-2" data-time="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
+<time class="mr-2" data-time="<?php the_time('Y-m-d'); ?>"><?php the_time('Y-m-d'); ?></time>
 <span><?php echo $cat_name; ?></span>
 </p>
 <h4 class="m-0"><?php the_title(); ?></h4>

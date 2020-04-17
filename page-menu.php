@@ -7,7 +7,7 @@ $wp_url = get_template_directory_uri();
 <section data-aos="fade-up" class="suv-mv">
 <div class="container position-relative">
 <img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/sub_mv_menu.png" alt="">
-<h2><span class="text-white">お品</span>書き</h2>
+<h2>お品書き</h2>
 </div>
 </section>
 <section class="sec">
@@ -67,7 +67,7 @@ $wp_url = get_template_directory_uri();
 <h3 class="h4 text-vertical text-md-vertical">ハモ鍋コース<br>ハモとアワビ鍋コース</h3>
 </div>
 <div class="col-md-10 mt-md-0 mt-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/menu_pic_5.png" alt="">
+<img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/menu_pic_5.png" alt="">
 <p class="mt-3 mb-1">前菜・旬のお造り・お鍋（野菜付き）・天麩羅・〆のお食事・デザート</p>
 <p class="mb-0">ハモ鍋 10,000円〜　ハモとアワビ鍋 12,000円〜</p>
 </div>
@@ -79,7 +79,7 @@ $wp_url = get_template_directory_uri();
 <h3 class="h4 text-vertical text-md-vertical">クマ鍋コース</h3>
 </div>
 <div class="col-md-10 mt-md-0 mt-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/menu_pic_6.png" alt="">
+<img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/menu_pic_6.png" alt="">
 <p class="mt-3 mb-1">前菜・旬のお造り・お鍋（野菜付き）・〆のお食事・デザート</p>
 <p class="mb-0">10,000円、12,000円、15,000円</p>
 </div>
@@ -91,7 +91,7 @@ $wp_url = get_template_directory_uri();
 <h3 class="h4 text-vertical text-md-vertical">キジ鍋コース</h3>
 </div>
 <div class="col-md-10 mt-md-0 mt-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/menu_pic_7.png" alt="">
+<img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/menu_pic_7.png" alt="">
 <p class="mt-3 mb-1">海鮮４種（当日のおまかせ）と肉２種（すっぽん、⽜、猪、鴨、豚の中から）
 <br>前菜・お鍋（野菜付き）・〆のお食事・デザート</p>
 <p class="mb-0">10,000円〜</p>
@@ -104,7 +104,7 @@ $wp_url = get_template_directory_uri();
 <h3 class="h4 text-vertical text-md-vertical">ウツボ鍋コース</h3>
 </div>
 <div class="col-md-10 mt-md-0 mt-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/menu_pic_8.png" alt="">
+<img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/menu_pic_8.png" alt="">
 <p class="mt-3 mb-1">前菜・旬のお造り・お鍋（野菜付き）・〆のお食事・デザート</p>
 <p class="mb-0">10,000円〜</p>
 </div>
@@ -116,7 +116,7 @@ $wp_url = get_template_directory_uri();
 <h3 class="h4 text-vertical text-md-vertical">⿊⽑和⽜鍋コース</h3>
 </div>
 <div class="col-md-10 mt-md-0 mt-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/menu_pic_9.png" alt="">
+<img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/menu_pic_9.png" alt="">
 <p class="mt-3 mb-1">（すきやきor しゃぶしゃぶ）<br>前菜・旬のお造り・お鍋（野菜付き）・〆のお食事・デザート</p>
 <p class="mb-0">10,000円、12,000円、15,000円</p>
 </div>
@@ -128,7 +128,7 @@ $wp_url = get_template_directory_uri();
 <h3 class="h4 text-vertical text-md-vertical">かも鍋コース</h3>
 </div>
 <div class="col-md-10 mt-md-0 mt-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/menu_pic_10.png" alt="">
+<img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/menu_pic_10.png" alt="">
 <p class="mt-3 mb-1">前菜・旬のお造り・お鍋（野菜付き）・〆のお食事・デザート</p>
 <p class="mb-0">10,000円〜</p>
 </div>
@@ -140,7 +140,7 @@ $wp_url = get_template_directory_uri();
 <h3 class="h4 text-vertical text-md-vertical">いのしし鍋コース</h3>
 </div>
 <div class="col-md-10 mt-md-0 mt-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/menu_pic_11.png" alt="">
+<img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/menu_pic_11.png" alt="">
 <p class="mt-3 mb-1">前菜・旬のお造り・お鍋（野菜付き）・〆のお食事・デザート</p>
 <p class="mb-0">10,000円〜</p>
 </div>
@@ -152,7 +152,7 @@ $wp_url = get_template_directory_uri();
 <h3 class="h4 text-vertical text-md-vertical">河豚鍋コース<small>（冬季限定）</small></h3>
 </div>
 <div class="col-md-10 mt-md-0 mt-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/menu_pic_12.png" alt="">
+<img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/menu_pic_12.png" alt="">
 <p class="mt-3 mb-1">前菜・てっさ・お鍋（野菜付き）・唐揚げ・〆のお食事・デザート</p>
 <p class="mb-0">10,000円、12,000円、15,000円</p>
 </div>
@@ -164,7 +164,7 @@ $wp_url = get_template_directory_uri();
 <h3 class="h4 text-vertical text-md-vertical">クエ鍋コース<small>（冬季限定）</small></h3>
 </div>
 <div class="col-md-10 mt-md-0 mt-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/menu_pic_13.png" alt="">
+<img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/menu_pic_13.png" alt="">
 <p class="mt-3 mb-1">前菜・クエ刺し・お鍋（野菜付き）・唐揚げ・〆のお食事・デザート</p>
 <p class="mb-0">10,000円、12,000円、15,000円</p>
 </div>
@@ -176,7 +176,7 @@ $wp_url = get_template_directory_uri();
 <h3 class="h4 text-vertical text-md-vertical">瀬⼾内ワタリ蟹鍋コース</h3>
 </div>
 <div class="col-md-10 mt-md-0 mt-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/menu_pic_14.png" alt="">
+<img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/menu_pic_14.png" alt="">
 <p class="mt-3 mb-1">前菜・旬のお造り・お鍋（野菜付き）・〆のお食事・デザート</p>
 <p class="mb-0">10,000円〜</p>
 </div>
