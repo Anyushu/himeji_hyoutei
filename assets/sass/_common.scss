@@ -26,6 +26,11 @@ h4,
   letter-spacing: 0.4em;
 }
 
+small,
+.small {
+  letter-spacing: 0.1em !important;
+}
+
 @media (min-width: 1400px) {
   .container {
     max-width: 1360px;
@@ -151,5 +156,13 @@ button:focus {
 
   th {
     white-space: nowrap;
+  }
+}
+
+.embed-responsive-21by9 {
+  &::before {
+    @include media-breakpoint-down(md) {
+      padding-top: 100%;
+    }
   }
 }
