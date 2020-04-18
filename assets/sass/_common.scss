@@ -81,6 +81,9 @@ button:focus {
   -webkit-writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
+  p {
+    line-height: 2.5 !important;
+  }
 }
 
 @include media-breakpoint-down(md) {
@@ -92,10 +95,12 @@ button:focus {
 }
 
 .btn-dark {
+  text-align: left;
   position: relative;
   border-radius: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1.25rem 1.5rem;
   letter-spacing: 0.3em;
+  min-width: 275px;
   @include media-breakpoint-down(md) {
     text-align: left;
     width: 90%;
@@ -152,6 +157,9 @@ button:focus {
     letter-spacing: 0.2em;
     line-height: 1.8;
     vertical-align: middle;
+    padding: 1em;
+    border-top: 0;
+    border-bottom: 1px solid #dee2e6;
   }
 
   th {

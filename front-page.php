@@ -69,7 +69,7 @@ $wp_url = get_template_directory_uri();
           <h2 class="h3">ご縁を大切に</h2>
           <p>語り継がれる瓢亭という想い出。
             <br>受け継がれる瓢亭という場所。
-            <br>これから100年、200年つづく
+            <br>これから百年、二百年つづく
             <br>ご縁を大切にしていきたい。</p>
         </div>
       </div>
@@ -111,10 +111,10 @@ $wp_url = get_template_directory_uri();
 <section id="suppon" class="bg-dark text-white">
   <div class="container">
     <div class="row sec align-items-center">
-      <div data-aos="fade-up" class="col-md mb-md-0 mb-5">
+      <div data-aos="fade-up" class="col-md-5 mb-md-0 mb-5">
         <h2 class="mb-0 h4">すっぽんといえば<br>創業1916年の姫路瓢亭</h2>
       </div>
-      <div data-aos="fade-up" class="col-md">
+      <div data-aos="fade-up" class="col-md-7">
         <p class="mb-0">瓢亭のすっぽんスープは、
           <br class="d-none d-md-block">ゆっくり・じっくり・愛情を込めて、８時間以上かけ、
           <br class="d-none d-md-block">スープの素となる旨味を引き出した、
@@ -213,7 +213,7 @@ $wp_url = get_template_directory_uri();
           <div class="text-vertical">
             <h3>店舗情報</h3>
             <p>ゆったりできる個室を
-              <br>6部屋ご用意しております。
+              <br>六部屋ご用意しております。
               <br>活用シーンは様々で
               <br>接待や顔合わせ、お友達となど、
               <br>ぜひ瓢亭をご利用ください。 </p>
@@ -249,11 +249,11 @@ $wp_url = get_template_directory_uri();
       </div>
     </div>
     <div class="row align-items-center">
-      <div data-aos="fade-up" class="col-md">
+      <div data-aos="fade-up" class="col-md-5">
         <h3>求人情報</h3>
         <p>瓢亭で1日体験をしてみませんか？</p>
       </div>
-      <div data-aos="fade-up" class="col-md text-md-left text-center">
+      <div data-aos="fade-up" class="col-md-7 text-md-left text-center">
         <a class="btn btn-dark mr-md-3 mb-md-0 mb-3" href="<?php echo $home; ?>/about#recruit-about">スタッフインタビュー</a>
         <a class="btn btn-dark" href="<?php echo $home; ?>/about#recruit-about">体験概要</a>
       </div>

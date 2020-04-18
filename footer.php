@@ -49,7 +49,6 @@ $wp_url = get_template_directory_uri();
 </div>
 
 <?php wp_footer(); ?>
-
 </body>
 
 </html>

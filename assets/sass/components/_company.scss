@@ -34,3 +34,10 @@
     }
   }
 }
+
+.recruit-ttl {
+  margin: 3rem 0 9rem;
+  @include media-breakpoint-down(md) {
+    margin: 2rem 0 5rem;
+  }
+}

@@ -135,8 +135,8 @@ $wp_url = get_template_directory_uri();
 </section>
 <section id="recruit-about" class="sec">
   <div class="container">
-    <h3 data-aos="fade-up" class="h5 text-center pb-md-5 pb-4">瓢亭で一日体験してみませんか？</h3>
-    <div data-aos="fade-up" class="text-center mt-5">
+    <h3 data-aos="fade-up" class="h5 text-center recruit-ttl">瓢亭で一日体験してみませんか？</h3>
+    <div data-aos="fade-up" class="text-center">
       <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/recruit_main.png" alt="">
     </div>
   </div>
