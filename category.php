@@ -30,10 +30,10 @@ if (has_post_thumbnail()) {
     $img = $wp_url.'/lib/images/no_img.png';
 }
 ?>
-        <div class="card border-0 position-relative bg-transparent mb-5">
+        <div data-aos="fade-up" class="card border-0 position-relative bg-transparent mb-5">
           <div class="row no-gutters">
-            <div class="col-4">
-              <img src="<?php echo $img; ?>" class="img-fluid" alt="<?php echo $ttl; ?>">
+            <div class="col-4 pr-md-4">
+              <img class="w-100" src="<?php echo $img; ?>" class="img-fluid" alt="<?php echo $ttl; ?>">
             </div>
             <div class="col-8">
               <div class="card-body pt-0 ">

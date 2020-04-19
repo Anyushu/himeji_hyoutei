@@ -187,6 +187,11 @@
       right: 2rem;
     }
   }
+
+  .text-vertical {
+    top: 0;
+    transform: translateY(0);
+  }
 }
 
 .vertical-area.h-100 {

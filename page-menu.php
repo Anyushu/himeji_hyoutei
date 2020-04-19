@@ -13,7 +13,7 @@ $wp_url = get_template_directory_uri();
 <section class="sec">
   <div class="container">
     <div class="main-menu">
-      <div class="row">
+      <div class="row mb-md-5">
         <div data-aos="fade-up" class="col-md-3 order-md-last">
           <h2 class="h4 text-vertical text-md-vertical">大分県安心院<br><span class="d-md-inline d-none">　　</span>すっぽん鍋コース</h2>
         </div>

@@ -60,9 +60,10 @@
     background-color: $white;
     color: $body-color;
     padding: 1em;
+    transition: all 0.3s;
 
     &:hover {
-      background-color: $body-color;
+      background-color: #222222;
       color: $white;
     }
 

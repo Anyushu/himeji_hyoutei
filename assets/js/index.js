@@ -13,9 +13,10 @@ require("jquery-drawer");
 
 AOS.init({
   offset: 0,
-  delay: 100,
-  duration: 800,
+  delay: 800,
+  duration: 2000,
   easing: "ease",
+  once: true,
 });
 
 $(function ($) {
