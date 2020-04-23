@@ -13,8 +13,8 @@ require("jquery-drawer");
 
 AOS.init({
   offset: 0,
-  delay: 800,
-  duration: 2000,
+  delay: 100,
+  duration: 1800,
   easing: "ease",
   once: true,
 });
@@ -58,8 +58,10 @@ $(function ($) {
     pauseOnFocus: false,
     pauseOnHover: false,
     fade: true,
+    speed: 1500,
     autoplay: true,
     autoplaySpeed: 4000,
+    cssEase: 'linear',
   });
   $(".recruit-loop").slick({
     arrows: false,
@@ -84,6 +86,12 @@ $(function ($) {
 
   $(".switch-img-thumbnail img").on("click", function () {
     let src = $(this).attr("src");
+    $(".switch-img-main img").css('display', 'none');
     $(".switch-img-main img").attr("src", src);
+    $(".switch-img-main img").fadeIn(800);
+  });
+  $(".play").on("click", function () {
+    $(this).fadeOut();
+    $(this).prev('img').fadeOut();
   });
 });

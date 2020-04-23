@@ -37,7 +37,7 @@ $wp_url = get_template_directory_uri();
           <i class="fab fa-instagram mr-2"></i>
           <span class="d-md-inline d-none">Instagram</span>
         </a>
-        <a class="text-body" href="" target="_blank">
+        <a class="text-body" href="https://www.youtube.com/channel/UCYBGGNkdwuytkLm81qtFftw" target="_blank">
           <i class="fab fa-youtube mr-2"></i>
           <span class="d-md-inline d-none">Youtube</span>
         </a>

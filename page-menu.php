@@ -189,14 +189,14 @@ $wp_url = get_template_directory_uri();
     <h2 class="text-center h4 mb-5">おまかせ会席</h2>
     <p class="text-center mb-5">食材のリクエストがあればお申し付けください。
       <br>また、アレルギーや苦手な食材もございましたら、合わせてお申し付けください。</p>
-    <p class="text-center small">コース料理一律<br>10,000円、12,000円、15,000円</p>
+    <p class="text-center">コース料理一律<br>10,000円、12,000円、15,000円</p>
     <div class="mt-5">
       <img class="w-100" src="<?php echo $wp_url; ?>/lib/images/menu_pic_15.png" alt="">
     </div>
-    <div class="mt-md-3 mt-2 d-flex justify-content-between align-items-center flex-nowrap">
-      <div><img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/menu_pic_16.png" alt=""></div>
-      <div class="mx-md-3 mx-2"><img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/menu_pic_17.png" alt=""></div>
-      <div><img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/menu_pic_18.png" alt=""></div>
+    <div class="mt-md-3 mt-2 kaiseki d-flex justify-content-between align-items-center flex-nowrap">
+      <div><img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/menu_pic_16.png" alt=""></div>
+      <div class="mx-md-0 mx-2"><img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/menu_pic_17.png" alt=""></div>
+      <div><img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/menu_pic_18.png" alt=""></div>
     </div>
   </div>
 </section>

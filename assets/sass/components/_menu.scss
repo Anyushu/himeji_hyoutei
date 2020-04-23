@@ -25,3 +25,11 @@
     }
   }
 }
+
+.kaiseki {
+  & > div {
+    @include media-breakpoint-up(md) {
+      width: 32%;
+    }
+  }
+}

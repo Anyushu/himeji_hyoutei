@@ -74,7 +74,7 @@ $wp_url = get_template_directory_uri();
             <div class="sns text-md-center text-right">
               <a class="text-body" href="https://www.facebook.com/himeji.hyotei/" target="_blank"><i class="fab fa-facebook-f"></i></a>
               <a class="text-body mx-3" href="https://www.instagram.com/hyoutei2/" target="_blank"><i class="fab fa-instagram"></i></a>
-              <a class="text-body" href="" target="_blank"><i class="fab fa-youtube"></i></a>
+              <a class="text-body" href="https://www.youtube.com/channel/UCYBGGNkdwuytkLm81qtFftw" target="_blank"><i class="fab fa-youtube"></i></a>
             </div>
           </div>
         </nav>
