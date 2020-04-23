@@ -15,6 +15,34 @@ $wp_url = get_template_directory_uri();
 </div>
 <a class="text-body scroll-main smooth d-md-block d-none" href="#read">Scroll</a>
 </div>
+
+<div class="banner my-4 mx-auto">
+<div class="container">
+<div class="d-md-flex align-items-center justify-content-center">
+<div class="text-center mr-md-5 mr-0 mb-md-0 mb-3" data-toggle="modal" data-target="#manga">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/banner1.png" alt="漫画">
+</div>
+<div class="text-center">
+<a href="https://www.youtube.com/channel/UCYBGGNkdwuytkLm81qtFftw" target="_blank">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/banner2.png" alt="YouTube">
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="manga" tabindex="-1" role="dialog" aria-labelledby="mangaModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/manga.jpg" alt="漫画">
+</div>
+</div>
+</div>
+</div>
+
 <section id="read" class="sec">
 <div class="container">
 <div class="row align-items-stretch">
@@ -200,7 +228,7 @@ $wp_url = get_template_directory_uri();
 <img src="<?php echo $wp_url; ?>/lib/images/slide_shop1.png" class="d-block w-100" alt="...">
 </div>
 <div class="carousel-item">
-<img src="<?php echo $wp_url; ?>/lib/images/manga.jpg" class="d-block w-100" alt="...">
+<img src="<?php echo $wp_url; ?>/lib/images/slide_shop2.png" class="d-block w-100" alt="...">
 </div>
 <div class="carousel-item">
 <img src="<?php echo $wp_url; ?>/lib/images/slide_shop3.png" class="d-block w-100" alt="...">

@@ -199,3 +199,26 @@
     height: auto !important;
   }
 }
+
+[data-toggle="modal"] {
+  cursor: pointer;
+}
+
+.banner {
+  .container {
+    max-width: 1120px;
+  }
+}
+
+.modal-body {
+  .close {
+    position: absolute;
+    top: 0;
+    right: -2rem;
+    color: #fff;
+    @include media-breakpoint-down(md) {
+      top: -2rem;
+      right: 0;
+    }
+  }
+}
