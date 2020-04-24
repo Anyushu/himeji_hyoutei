@@ -20,11 +20,11 @@ $wp_url = get_template_directory_uri();
 <div class="container">
 <div class="d-md-flex align-items-center justify-content-center">
 <div class="text-center mr-md-5 mr-0 mb-md-0 mb-3" data-toggle="modal" data-target="#manga">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/banner1.png" alt="漫画">
+<img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/banner1.png" alt="漫画">
 </div>
 <div class="text-center">
 <a href="https://www.youtube.com/channel/UCYBGGNkdwuytkLm81qtFftw" target="_blank">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/banner2.png" alt="YouTube">
+<img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/banner2.png" alt="YouTube">
 </a>
 </div>
 </div>
@@ -59,7 +59,7 @@ $wp_url = get_template_directory_uri();
 <div data-aos="fade-up" class="col-md-7 order-md-first">
 <div class="d-md-block d-none">
 <div class="mb-2">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/read_main.png" alt="瓢亭画像1">
+<img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/read_main.png" alt="瓢亭画像1">
 </div>
 <div class="d-md-flex justify-content-between align-items-start">
 <div>
@@ -282,7 +282,7 @@ $wp_url = get_template_directory_uri();
 <p>瓢亭で1日体験をしてみませんか？</p>
 </div>
 <div data-aos="fade-up" class="col-md-7 text-md-left text-center">
-<a class="btn btn-dark mr-md-3 mb-md-0 mb-3" href="<?php echo $home; ?>/about#recruit-about">スタッフインタビュー</a>
+<a class="btn btn-dark mr-md-3 mb-md-0 mb-3" href="<?php echo $home; ?>/about#youtube-embed">スタッフインタビュー</a>
 <a class="btn btn-dark" href="<?php echo $home; ?>/about#recruit-about">体験概要</a>
 </div>
 </div>

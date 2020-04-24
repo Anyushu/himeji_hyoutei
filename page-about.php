@@ -155,7 +155,7 @@ $wp_url = get_template_directory_uri();
 <div><img class="w-100" src="<?php echo $wp_url; ?>/lib/images/loop_8.png" alt=""></div>
 </div>
 
-<div class="youtube-embed">
+<div id="youtube-embed" class="youtube-embed">
 <div class="container">
 <div class="row">
 <div data-aos="fade-up" class="col-md">

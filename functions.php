@@ -122,6 +122,7 @@ add_action('wp_enqueue_scripts', 'add_my_scripts');
 // ログイン画面のロゴ変更
 function login_logo()
 {
-    echo '<style type="text/css">.login h1{display:none}</style>';
+    $logo = get_template_directory_uri().'/lib/images/logo.png';
+    echo '<style type="text/css">.login h1 a{background-image: url('.$logo.');}</style>';
 }
 add_action('login_head', 'login_logo');

@@ -8,6 +8,7 @@ body {
   font-family: "Noto Serif JP", serif;
   background-image: url("../images/bg_body.png");
   background-repeat: repeat;
+  font-size: 16px;
 }
 
 a[href^="tel:"] {
@@ -179,4 +180,8 @@ button:focus {
       padding-top: 100%;
     }
   }
+}
+
+.slick-slide {
+  overflow: hidden;
 }
