@@ -18,7 +18,7 @@ $wp_url = get_template_directory_uri();
 <header class="main-header py-md-4 py-5">
 
 <div class="container-fluid position-relative">
-<h1 class="m-0 text-center"><a href="<?php echo $home; ?>"><img src="<?php echo $wp_url; ?>/lib/images/logo.png" srcset="<?php echo $wp_url; ?>/lib/images/logo.png 1x, <?php echo $wp_url; ?>/lib/images/logo@2x.png 2x" alt="日本料理の【姫路瓢亭】会席や接待、法事などにご利用ください"></a></h1>
+<h1 class="m-0 text-center head-logo"><a href="<?php echo $home; ?>"><img src="<?php echo $wp_url; ?>/lib/images/logo.png" srcset="<?php echo $wp_url; ?>/lib/images/logo.png 1x, <?php echo $wp_url; ?>/lib/images/logo@2x.png 2x" alt="日本料理の【姫路瓢亭】会席や接待、法事などにご利用ください"></a></h1>
 <nav class="position-absolute d-md-block d-none">
 <ul class="list-group list-group-horizontal">
 <li class="list-group-item border-0 text-vertical bg-transparent"><a class="text-body" href="<?php echo $home; ?>/">ホーム</a></li>

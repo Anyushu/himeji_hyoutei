@@ -21,7 +21,7 @@ $wp_url = get_template_directory_uri();
 </div>
 <h2 class="text-center h3 m-0 foot-read">すべてのご縁を大切に。</h2>
 <div class="sec text-center">
-<div class="mb-4">
+<div class="mb-4 foot-logo">
 <a href="<?php echo $home; ?>/">
 <img src="<?php echo $wp_url; ?>/lib/images/logo.png" srcset="<?php echo $wp_url; ?>/lib/images/logo.png 1x, <?php echo $wp_url; ?>/lib/images/logo@2x.png 2x" alt="日本料理の【姫路瓢亭】会席や接待、法事などにご利用ください">
 </a>

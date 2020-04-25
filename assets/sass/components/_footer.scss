@@ -34,3 +34,15 @@
     }
   }
 }
+
+.foot-logo {
+  a {
+    display: block;
+    img {
+      @include media-breakpoint-down(md) {
+        width: auto;
+        height: 80px;
+      }
+    }
+  }
+}

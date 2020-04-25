@@ -31,7 +31,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 <div class="modal fade" id="manga" tabindex="-1" role="dialog" aria-labelledby="mangaModalLabel" aria-hidden="true">
-<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-dialog" role="document">
 <div class="modal-content">
 <div class="modal-body">
 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
