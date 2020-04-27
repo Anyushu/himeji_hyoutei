@@ -61,16 +61,8 @@ $wp_url = get_template_directory_uri();
 <div class="mb-2">
 <img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/read_main.png" alt="瓢亭画像1">
 </div>
-<div class="d-md-flex justify-content-between align-items-start">
-<div>
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/read_sub1.png" alt="瓢亭画像2">
-</div>
-<div class="mx-2">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/read_sub2.png" alt="瓢亭画像3">
-</div>
-<div>
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/read_sub3.png" alt="瓢亭画像4">
-</div>
+<div class="text-center">
+<img class="w-100" src="<?php echo $wp_url; ?>/lib/images/read_sub.png" alt="瓢亭画像2">
 </div>
 </div>
 <div class="d-md-none d-block">
@@ -110,13 +102,8 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </div>
-<div data-aos="fade-up" class="d-md-flex d-none justify-content-between align-items-center mt-3">
-<div class="mr-md-3">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/intor_sub1.png" alt="瓢亭画像11">
-</div>
-<div>
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/intor_sub2.png" alt="瓢亭画像12">
-</div>
+<div data-aos="fade-up" class="d-md-block d-none mt-3">
+<img class="w-100" src="<?php echo $wp_url; ?>/lib/images/intor_sub.png" alt="">
 </div>
 </div>
 </section>
