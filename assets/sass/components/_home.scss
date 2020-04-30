@@ -207,6 +207,23 @@
 .banner {
   .container {
     max-width: 1120px;
+    .d-md-flex {
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      &>div {
+        @include media-breakpoint-down(md) {
+          width: 100%;
+          text-align: center;
+        }
+        &:nth-child(2) {
+          margin: 0 2%;
+          @include media-breakpoint-down(md) {
+            margin: 2% 0;
+          }
+        }
+      }
+    }
   }
 }
 

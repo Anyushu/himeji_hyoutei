@@ -18,13 +18,18 @@ $wp_url = get_template_directory_uri();
 
 <div class="banner my-4 mx-auto">
 <div class="container">
-<div class="d-md-flex align-items-center justify-content-center">
-<div class="text-center mr-md-5 mr-0 mb-md-0 mb-3" data-toggle="modal" data-target="#manga">
+<div class="d-md-flex">
+<div class="text-center" data-toggle="modal" data-target="#manga">
 <img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/banner1.png" alt="漫画">
 </div>
 <div class="text-center">
 <a href="https://www.youtube.com/channel/UCYBGGNkdwuytkLm81qtFftw" target="_blank">
 <img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/banner2.png" alt="YouTube">
+</a>
+</div>
+<div class="text-center">
+<a class="d-block w-100" href="https://www.youtube.com/channel/UCxYtstlFBSLvJRRkz7t59aA" target="_blank">
+<img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/banner3.png" alt="YouTube">
 </a>
 </div>
 </div>
