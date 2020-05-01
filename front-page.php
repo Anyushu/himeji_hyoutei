@@ -274,8 +274,8 @@ $wp_url = get_template_directory_uri();
 <p>瓢亭で1日体験をしてみませんか？</p>
 </div>
 <div data-aos="fade-up" class="col-md-7 text-md-left text-center">
-<a class="btn btn-dark mr-md-3 mb-md-0 mb-3" href="<?php echo $home; ?>/about#youtube-embed">スタッフインタビュー</a>
-<a class="btn btn-dark" href="<?php echo $home; ?>/about#recruit-about">体験概要</a>
+<a class="d-md-inline d-block btn btn-dark mr-md-3 mb-md-0 mb-3" href="<?php echo $home; ?>/about#youtube-embed">スタッフインタビュー</a>
+<a class="d-md-inline d-block btn btn-dark" href="<?php echo $home; ?>/about#recruit-about">体験概要</a>
 </div>
 </div>
 </div>
