@@ -190,16 +190,18 @@ button:focus {
   height: 100%;
 }
 
-.row {
-  &.align-items-start {
-    .col-md-2 {
-      @include media-breakpoint-up(md) {
-        height: 100%;
+@media all and (-ms-high-contrast: none) {
+  .row {
+    &.align-items-start {
+      .col-md-2 {
+        .text-vertical {
+          height: 100%;
+        }
       }
-    }
-    .col-md-3 {
-      @include media-breakpoint-up(md) {
-        height: 100%;
+      .col-md-3 {
+        .text-vertical {
+          height: 100%;
+        }
       }
     }
   }

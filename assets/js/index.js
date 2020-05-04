@@ -3,7 +3,7 @@
 import "../sass/app.scss";
 
 // js modules
-// import AOS from "aos";
+import AOS from "aos";
 import "bootstrap";
 import "slick-carousel";
 import "@fortawesome/fontawesome-free/js/all";
@@ -11,13 +11,13 @@ import "@fortawesome/fontawesome-free/js/all";
 const IScroll = require("iscroll");
 require("jquery-drawer");
 
-// AOS.init({
-//   offset: 0,
-//   delay: 100,
-//   duration: 1800,
-//   easing: "ease",
-//   once: true,
-// });
+AOS.init({
+  offset: 0,
+  delay: 100,
+  duration: 1800,
+  easing: "ease",
+  once: true,
+});
 
 $(function ($) {
   // drawer
