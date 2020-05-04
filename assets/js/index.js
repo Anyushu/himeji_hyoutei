@@ -1,9 +1,9 @@
 // sass
-import "aos/dist/aos.css";
+// import "aos/dist/aos.css";
 import "../sass/app.scss";
 
 // js modules
-import AOS from "aos";
+// import AOS from "aos";
 import "bootstrap";
 import "slick-carousel";
 import "@fortawesome/fontawesome-free/js/all";
@@ -11,13 +11,13 @@ import "@fortawesome/fontawesome-free/js/all";
 const IScroll = require("iscroll");
 require("jquery-drawer");
 
-AOS.init({
-  offset: 0,
-  delay: 100,
-  duration: 1800,
-  easing: "ease",
-  once: true,
-});
+// AOS.init({
+//   offset: 0,
+//   delay: 100,
+//   duration: 1800,
+//   easing: "ease",
+//   once: true,
+// });
 
 $(function ($) {
   // drawer
@@ -61,7 +61,7 @@ $(function ($) {
     speed: 1500,
     autoplay: true,
     autoplaySpeed: 4000,
-    cssEase: 'linear',
+    cssEase: "linear",
   });
   $(".recruit-loop").slick({
     arrows: false,
@@ -86,12 +86,12 @@ $(function ($) {
 
   $(".switch-img-thumbnail img").on("click", function () {
     let src = $(this).attr("src");
-    $(".switch-img-main img").css('display', 'none');
+    $(".switch-img-main img").css("display", "none");
     $(".switch-img-main img").attr("src", src);
     $(".switch-img-main img").fadeIn(800);
   });
   $(".play").on("click", function () {
     $(this).fadeOut();
-    $(this).prev('img').fadeOut();
+    $(this).prev("img").fadeOut();
   });
 });

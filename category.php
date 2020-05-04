@@ -3,7 +3,7 @@ $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header();
 ?>
-<section data-aos="fade-up" class="suv-mv">
+<section data-aos="fade" class="suv-mv">
 <div class="container position-relative">
 <img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/sub_mv_news.png" alt="">
 <h2><span class="text-white">新着</span>情報</h2>
@@ -33,7 +33,7 @@ if (has_post_thumbnail()) {
     $img = $wp_url.'/lib/images/no_img.png';
 }
 ?>
-<div data-aos="fade-up" class="card border-0 position-relative bg-transparent mb-5">
+<div data-aos="fade" class="card border-0 position-relative bg-transparent mb-5">
 
 <div class="row no-gutters">
 

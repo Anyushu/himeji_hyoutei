@@ -4,7 +4,7 @@ $wp_url = get_template_directory_uri();
 ?>
 
 <?php get_header(); ?>
-<div data-aos="fade-up" class="home-mv position-relative">
+<div data-aos="fade" class="home-mv position-relative">
 <div class="container">
 <div class="mv-slider">
 <div><img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/mv_slide1.png" alt="スライド"></div>
@@ -51,7 +51,7 @@ $wp_url = get_template_directory_uri();
 <section id="read" class="sec">
 <div class="container">
 <div class="row align-items-stretch">
-<div data-aos="fade-up" data-aos-delay="1000" class="col-md-5 mb-md-0 mb-4 order-md-last vertical-area">
+<div data-aos="fade" data-aos-delay="1000" class="col-md-5 mb-md-0 mb-4 order-md-last vertical-area">
 <div class="text-vertical">
 <h2 class="h3">おかえりなさい</h2>
 <p>家のような落ち着き。
@@ -61,7 +61,7 @@ $wp_url = get_template_directory_uri();
 <br>瓢亭はそんな場所でありたい。</p>
 </div>
 </div>
-<div data-aos="fade-up" class="col-md-7 order-md-first">
+<div data-aos="fade" class="col-md-7 order-md-first">
 <div class="d-md-block d-none">
 <div class="mb-2">
 <img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/read_main.png" alt="瓢亭画像1">
@@ -89,7 +89,7 @@ $wp_url = get_template_directory_uri();
 <img src="<?php echo $wp_url; ?>/lib/images/bg_illust_2.png" alt="瓢亭画像8">
 </span>
 <div class="row align-items-stretch">
-<div data-aos="fade-up" data-aos-delay="1000" class="col-md-5 mb-md-0 mb-4 vertical-area">
+<div data-aos="fade" data-aos-delay="1000" class="col-md-5 mb-md-0 mb-4 vertical-area">
 <div class="text-vertical">
 <h2 class="h3">ご縁を大切に</h2>
 <p>語り継がれる瓢亭という想い出。
@@ -98,7 +98,7 @@ $wp_url = get_template_directory_uri();
 <br>ご縁を大切にしていきたい。</p>
 </div>
 </div>
-<div data-aos="fade-up" class="col-md-7">
+<div data-aos="fade" class="col-md-7">
 <div class="d-md-block d-none text-right">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/intor_main.png" alt="瓢亭画像9">
 </div>
@@ -107,13 +107,13 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </div>
-<div data-aos="fade-up" class="d-md-block d-none mt-3">
+<div data-aos="fade" class="d-md-block d-none mt-3">
 <img class="w-100" src="<?php echo $wp_url; ?>/lib/images/intor_sub.png" alt="">
 </div>
 </div>
 </section>
 <div class="container position-relative" style="z-index: 1">
-<div data-aos="fade-up" id="carousel-suppon" class="carousel slide carousel-fade" data-ride="carousel">
+<div data-aos="fade" id="carousel-suppon" class="carousel slide carousel-fade" data-ride="carousel">
 <ol class="carousel-indicators">
 <li data-target="#carousel-suppon" data-slide-to="0" class="active"></li>
 <li data-target="#carousel-suppon" data-slide-to="1"></li>
@@ -131,10 +131,10 @@ $wp_url = get_template_directory_uri();
 <section id="suppon" class="bg-dark text-white">
 <div class="container">
 <div class="row sec align-items-center">
-<div data-aos="fade-up" data-aos-delay="800" class="col-md-5 mb-md-0 mb-5">
+<div data-aos="fade" data-aos-delay="800" class="col-md-5 mb-md-0 mb-5">
 <h2 class="mb-0 h4">すっぽんといえば<br>創業1916年の姫路瓢亭</h2>
 </div>
-<div data-aos="fade-up" data-aos-delay="1000" class="col-md-7">
+<div data-aos="fade" data-aos-delay="1000" class="col-md-7">
 <p class="mb-0">瓢亭のすっぽんスープは、
 <br class="d-none d-md-block">ゆっくり・じっくり・愛情を込めて、８時間以上かけ、
 <br class="d-none d-md-block">スープの素となる旨味を引き出した、
@@ -144,10 +144,10 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 <div class="row sec align-items-center">
-<div data-aos="fade-up" class="col-md-5 order-md-last mb-md-0 mb-4">
+<div data-aos="fade" class="col-md-5 order-md-last mb-md-0 mb-4">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/history_side.png" alt="姫路瓢亭のすっぽん">
 </div>
-<div data-aos="fade-up" data-aos-delay="1000" class="col-md-7 order-md-first">
+<div data-aos="fade" data-aos-delay="1000" class="col-md-7 order-md-first">
 <h2 class="h4 my-md-4 my-5">姫路瓢亭のすっぽん</h2>
 <p>瓢亭名物のすっぽんは大分県の安心院で
 <br>丹精込めて育ったものをご提供しております。
@@ -172,7 +172,7 @@ $wp_url = get_template_directory_uri();
 <img src="<?php echo $wp_url; ?>/lib/images/bg_illust_8.png" alt="">
 </span>
 <div class="row align-items-stretch sec">
-<div data-aos="fade-up" class="col-md-8 order-md-last">
+<div data-aos="fade" class="col-md-8 order-md-last">
 <div id="carousel-menu" class="carousel slide carousel-fade" data-ride="carousel">
 <ol class="carousel-indicators black">
 <li data-target="#carousel-menu" data-slide-to="0" class="active"></li>
@@ -192,7 +192,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </div>
-<div data-aos="fade-up" data-aos-delay="1000" class="col-md-4 order-md-first mt-md-0 mt-5">
+<div data-aos="fade" data-aos-delay="1000" class="col-md-4 order-md-first mt-md-0 mt-5">
 <div class="vertical-area h-100">
 <div class="text-vertical">
 <h3>お品書き</h3>
@@ -208,7 +208,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 <div class="row align-items-stretch sec">
-<div data-aos="fade-up" class="col-md-8">
+<div data-aos="fade" class="col-md-8">
 <div id="carousel-shop" class="carousel slide carousel-fade" data-ride="carousel">
 <ol class="carousel-indicators black">
 <li data-target="#carousel-shop" data-slide-to="0" class="active"></li>
@@ -228,7 +228,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </div>
-<div data-aos="fade-up" data-aos-delay="1000" class="col-md-4 mt-md-0 mt-5">
+<div data-aos="fade" data-aos-delay="1000" class="col-md-4 mt-md-0 mt-5">
 <div class="vertical-area h-100">
 <div class="text-vertical">
 <h3>店舗情報</h3>
@@ -254,26 +254,26 @@ $wp_url = get_template_directory_uri();
 </span>
 <div class="mb-5">
 <div class="d-md-flex d-none justify-content-between align-items-start">
-<div data-aos="fade-up" data-aos-delay="800">
+<div data-aos="fade" data-aos-delay="800">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/staff1.png" alt="">
 </div>
-<div data-aos="fade-up" data-aos-delay="1000" class="mx-2">
+<div data-aos="fade" data-aos-delay="1000" class="mx-2">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/staff2.png" alt="">
 </div>
-<div data-aos="fade-up" data-aos-delay="1200">
+<div data-aos="fade" data-aos-delay="1200">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/staff3.png" alt="">
 </div>
 </div>
-<div data-aos="fade-up" data-aos-delay="800" class="d-block d-md-none">
+<div data-aos="fade" data-aos-delay="800" class="d-block d-md-none">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/staff_sp.png" alt="">
 </div>
 </div>
 <div class="row align-items-center">
-<div data-aos="fade-up" data-aos-delay="1000" class="col-md-5">
+<div data-aos="fade" data-aos-delay="1000" class="col-md-5">
 <h3>求人情報</h3>
 <p>瓢亭で1日体験をしてみませんか？</p>
 </div>
-<div data-aos="fade-up" class="col-md-7 text-md-left text-center">
+<div data-aos="fade" class="col-md-7 text-md-left text-center">
 <a class="d-md-inline d-block btn btn-dark mr-md-3 mb-md-0 mb-3" href="<?php echo $home; ?>/about#youtube-embed">スタッフインタビュー</a>
 <a class="d-md-inline d-block btn btn-dark" href="<?php echo $home; ?>/about#recruit-about">体験概要</a>
 </div>
@@ -286,14 +286,14 @@ $wp_url = get_template_directory_uri();
 <img src="<?php echo $wp_url; ?>/lib/images/bg_illust_3.png" alt="">
 </span>
 <div class="row align-items-stretch">
-<div data-aos="fade-up" class="col-2">
+<div data-aos="fade" class="col-2">
 <div class="vertical-area h-100">
 <div class="text-vertical">
 <h3 class="m-0">新着情報</h3>
 </div>
 </div>
 </div>
-<div data-aos="fade-up" class="col-10">
+<div data-aos="fade" class="col-10">
 <ul class="news">
 <?php
 $args = ['posts_per_page' => 3];

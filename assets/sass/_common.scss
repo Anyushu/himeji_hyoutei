@@ -189,3 +189,18 @@ button:focus {
 .modal-content {
   height: 100%;
 }
+
+.row {
+  &.align-items-start {
+    .col-md-2 {
+      @include media-breakpoint-up(md) {
+        height: 100%;
+      }
+    }
+    .col-md-3 {
+      @include media-breakpoint-up(md) {
+        height: 100%;
+      }
+    }
+  }
+}

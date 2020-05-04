@@ -4,7 +4,7 @@ $wp_url = get_template_directory_uri();
 ?>
 
 <?php get_header(); ?>
-<section data-aos="fade-up" class="suv-mv">
+<section data-aos="fade" class="suv-mv">
 <div class="container position-relative">
 <img class="img-fluid w-100" src="<?php echo $wp_url; ?>/lib/images/sub_mv_menu.png" alt="">
 <h2>お品書き</h2>
@@ -14,14 +14,14 @@ $wp_url = get_template_directory_uri();
 <div class="container">
 <div class="main-menu">
 <div class="row align-items-start mb-md-5">
-<div data-aos="fade-up" class="col-md-3 order-md-last">
+<div data-aos="fade" class="col-md-3 order-md-last">
 <h2 class="h4 text-vertical text-md-vertical">大分県安心院<br><span class="d-md-inline d-none">　　</span>すっぽん鍋コース</h2>
 </div>
-<div data-aos="fade-up" class="col-md-9 order-md-first mt-md-0 mt-4">
+<div data-aos="fade" class="col-md-9 order-md-first mt-md-0 mt-4">
 <img class="w-100" src="<?php echo $wp_url; ?>/lib/images/menu_pic_1.png" alt="">
 </div>
 </div>
-<div data-aos="fade-up" class="p-md-4 mt-md-0 mt-4">
+<div data-aos="fade" class="p-md-4 mt-md-0 mt-4">
 <table class="w-100 table table-borderless">
 <tbody>
 <tr>
@@ -47,7 +47,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </section>
 <div class="container menu-main-slide">
-<div data-aos="fade-up" class="d-flex justify-content-center align-items-center">
+<div data-aos="fade" class="d-flex justify-content-center align-items-center">
 <div class="">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/menu_pic_2.png" alt="">
 </div>
@@ -61,7 +61,7 @@ $wp_url = get_template_directory_uri();
 </div>
 <section id="menu-list" class="sec">
 <div class="container">
-<div data-aos="fade-up" class="menu-list">
+<div data-aos="fade" class="menu-list">
 <div class="row align-items-start">
 <div class="col-md-2">
 <h3 class="h4 text-vertical text-md-vertical">ハモ鍋コース<br>ハモとアワビ鍋コース</h3>
@@ -73,7 +73,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </div>
-<div data-aos="fade-up" class="menu-list">
+<div data-aos="fade" class="menu-list">
 <div class="row align-items-start">
 <div class="col-md-2">
 <h3 class="h4 text-vertical text-md-vertical">クマ鍋コース</h3>
@@ -85,7 +85,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </div>
-<div data-aos="fade-up" class="menu-list">
+<div data-aos="fade" class="menu-list">
 <div class="row align-items-start">
 <div class="col-md-2">
 <h3 class="h4 text-vertical text-md-vertical">キジ鍋コース</h3>
@@ -98,7 +98,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </div>
-<div data-aos="fade-up" class="menu-list">
+<div data-aos="fade" class="menu-list">
 <div class="row align-items-start">
 <div class="col-md-2">
 <h3 class="h4 text-vertical text-md-vertical">ウツボ鍋コース</h3>
@@ -110,7 +110,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </div>
-<div data-aos="fade-up" class="menu-list">
+<div data-aos="fade" class="menu-list">
 <div class="row align-items-start">
 <div class="col-md-2">
 <h3 class="h4 text-vertical text-md-vertical">⿊⽑和⽜鍋コース</h3>
@@ -122,7 +122,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </div>
-<div data-aos="fade-up" class="menu-list">
+<div data-aos="fade" class="menu-list">
 <div class="row align-items-start">
 <div class="col-md-2">
 <h3 class="h4 text-vertical text-md-vertical">かも鍋コース</h3>
@@ -134,7 +134,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </div>
-<div data-aos="fade-up" class="menu-list">
+<div data-aos="fade" class="menu-list">
 <div class="row align-items-start">
 <div class="col-md-2">
 <h3 class="h4 text-vertical text-md-vertical">いのしし鍋コース</h3>
@@ -146,7 +146,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </div>
-<div data-aos="fade-up" class="menu-list">
+<div data-aos="fade" class="menu-list">
 <div class="row align-items-start">
 <div class="col-md-2">
 <h3 class="h4 text-vertical text-md-vertical">河豚鍋コース<small>（冬季限定）</small></h3>
@@ -158,7 +158,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </div>
-<div data-aos="fade-up" class="menu-list">
+<div data-aos="fade" class="menu-list">
 <div class="row align-items-start">
 <div class="col-md-2">
 <h3 class="h4 text-vertical text-md-vertical">クエ鍋コース<small>（冬季限定）</small></h3>
@@ -170,7 +170,7 @@ $wp_url = get_template_directory_uri();
 </div>
 </div>
 </div>
-<div data-aos="fade-up" class="menu-list">
+<div data-aos="fade" class="menu-list">
 <div class="row align-items-start">
 <div class="col-md-2">
 <h3 class="h4 text-vertical text-md-vertical">瀬⼾内ワタリ蟹鍋コース</h3>

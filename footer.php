@@ -3,7 +3,7 @@ $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 ?>
 </main>
-<footer data-aos="fade-up" id="footer">
+<footer data-aos="fade" id="footer">
 <div class="container position-relative">
 <span class="bg-illust position-absolute">
 <img src="<?php echo $wp_url; ?>/lib/images/bg_illust_6.png" alt="">
