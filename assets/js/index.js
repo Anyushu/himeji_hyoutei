@@ -11,6 +11,11 @@ import "@fortawesome/fontawesome-free/js/all";
 const IScroll = require("iscroll");
 require("jquery-drawer");
 
+let user_agent = window.navigator.userAgent.toLowerCase();
+if (user_agent.indexOf("msie") != -1 || user_agent.indexOf("trident") != -1) {
+  $(".align-items-start .col-md-2,.align-items-start .col-md-3").css("height", "100%");
+}
+
 AOS.init({
   offset: 0,
   delay: 100,

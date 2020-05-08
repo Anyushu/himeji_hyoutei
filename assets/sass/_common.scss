@@ -79,11 +79,16 @@ button:focus {
 }
 
 .text-vertical {
+  display: inline-block;
+  vertical-align: text-top;
+  height: auto;
   -webkit-writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
   p {
     line-height: 2.5 !important;
+    display: inline-block;
+    vertical-align: text-top;
   }
 }
 
@@ -188,21 +193,4 @@ button:focus {
 
 .modal-content {
   height: 100%;
-}
-
-@media all and (-ms-high-contrast: none) {
-  .row {
-    &.align-items-start {
-      .col-md-2 {
-        .text-vertical {
-          height: 100%;
-        }
-      }
-      .col-md-3 {
-        .text-vertical {
-          height: 100%;
-        }
-      }
-    }
-  }
 }
